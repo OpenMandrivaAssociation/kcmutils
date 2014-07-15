@@ -4,9 +4,9 @@
 %define debug_package %{nil}
 
 Name: kcmutils
-Version: 4.99.0
-Release: 3
-Source0: http://ftp5.gwdg.de/pub/linux/kde/unstable/frameworks/%{version}/%{name}-%{version}.tar.xz
+Version: 5.0.0
+Release: 1
+Source0: http://ftp5.gwdg.de/pub/linux/kde/stable/frameworks/%{version}/%{name}-%{version}.tar.xz
 Summary: The KDE Frameworks 5 framework for writing System Settings modules
 URL: http://kde.org/
 License: GPL
@@ -53,8 +53,9 @@ Development files (Headers etc.) for %{name}.
 
 %install
 %makeinstall_std -C build
+%find_lang %{name}%{major}
 
-%files
+%files -f %{name}%{major}.lang
 %{_datadir}/kservicetypes5/kcmodule*
 
 %files -n %{libname}
