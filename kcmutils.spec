@@ -15,7 +15,10 @@ Group: System/Libraries
 BuildRequires: cmake
 BuildRequires: ninja
 BuildRequires: pkgconfig(Qt5Core)
+BuildRequires: pkgconfig(Qt5DBus)
+BuildRequires: pkgconfig(Qt5Gui)
 BuildRequires: pkgconfig(Qt5Test)
+BuildRequires: pkgconfig(Qt5Widgets)
 BuildRequires: cmake(KF5ItemViews)
 BuildRequires: cmake(KF5ConfigWidgets)
 BuildRequires: cmake(KF5CoreAddons)
