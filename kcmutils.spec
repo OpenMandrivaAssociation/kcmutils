@@ -30,6 +30,7 @@ BuildRequires: cmake(KF5XmlGui)
 BuildRequires: cmake(KF5Declarative)
 BuildRequires: cmake(ECM)
 # For QCH format docs
+BuildRequires: doxygen
 BuildRequires: qt5-assistant
 Requires: %{libname} = %{EVRD}
 
