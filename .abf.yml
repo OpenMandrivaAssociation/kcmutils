@@ -1,4 +1,2 @@
-removed_sources:
-  kcmutils-5.13.0.tar.xz: a6f4607cbc0cecafa589e92c53a53832c06b7993
 sources:
-  kcmutils-5.64.0.tar.xz: c7915b228f4364df9fb35c34f2acd3ef4b5195bf
+  kcmutils-5.65.0.tar.xz: acb479c086b397558f072f7b35a4d5220931c24c
